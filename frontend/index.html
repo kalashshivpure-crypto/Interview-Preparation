@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InterviewMate</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>InterviewMate</h1>
+
+  <section class="upload-section">
+    <h2>Upload Resume</h2>
+    <input type="file" id="resumeInput" />
+    <button onclick="analyzeATS()">Check ATS Score</button>
+  </section>
+
+  <section class="interview-section">
+    <h2>Start Mock Interview</h2>
+    <select id="roleSelect"></select>
+    <button onclick="startInterview()">Start</button>
+  </section>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
